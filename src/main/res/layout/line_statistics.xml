@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="180dp"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Player"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/won"
+        android:layout_width="50dp"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Won"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/lost"
+        android:layout_width="50dp"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Lost"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="50dp"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="%"
+        android:textSize="20sp" />
+
+</LinearLayout>
